@@ -1,0 +1,90 @@
+Software Requirements Specification (SRS)
+Online Flight Booking System
+1. Introduction
+1.1 Purpose:
+Define the requirements for an online flight booking system.
+
+1.2 Scope:
+Includes flight search, booking, payment processing, and user account management.
+
+1.3 Definitions, Acronyms, and Abbreviations:
+
+User: Anyone using the system.
+Admin: System administrator.
+API: Application Programming Interface.
+1.4 References:
+
+UI Design Document
+Database Schema Documentation
+1.5 Overview:
+Details the structure and requirements for the system.
+
+2. Overall Description
+2.1 Product Perspective:
+Standalone web application interfacing with airline databases and payment gateways.
+
+2.2 Product Functions:
+
+Flight search
+Flight selection
+User registration and login
+Booking and payment processing
+Booking management
+Notifications and alerts
+2.3 User Classes and Characteristics:
+
+End Users: Book flights.
+Admins: Manage system and accounts.
+2.4 Operating Environment:
+
+Web browsers (Chrome, Firefox, Safari)
+Mobile devices (iOS, Android)
+2.5 Design and Implementation Constraints:
+
+Security standards compliance
+Compatibility with APIs
+2.6 User Documentation:
+
+User manual
+Online help
+2.7 Assumptions and Dependencies:
+
+Internet connection
+Available airline and payment services
+3. Specific Requirements
+3.1 External Interface Requirements:
+
+User Interfaces: Search, results, flight details, booking, and account management pages.
+Software Interfaces: Airline APIs, payment gateways.
+Communications Interfaces: Secure HTTPS communication.
+3.2 Functional Requirements:
+
+Flight Search: Search by locations, dates, and passengers.
+Flight Selection: View and select flights.
+User Registration/Login: Create and log into accounts.
+Booking/Payment: Enter details and process payments.
+Booking Management: View, modify, and cancel bookings.
+Notifications/Alerts: Email notifications for bookings and changes.
+3.3 Performance Requirements:
+
+Handle up to 10,000 concurrent users.
+Process queries within 2 seconds.
+3.4 Logical Database Requirements:
+
+Securely store user, flight, booking, and transaction data.
+3.5 Design Constraints:
+
+Compliance with GDPR and accessibility standards.
+3.6 Software System Attributes:
+
+Reliability: 99.9% uptime.
+Availability: 24/7.
+Security: Encryption and protection against attacks.
+Maintainability: Easy updates.
+Portability: Compatible with major browsers and devices.
+4. Appendices
+A. Sample Screens:
+Mockups of key screens.
+
+B. Glossary:
+Definitions of terms.
